@@ -1,0 +1,16 @@
+  app:
+    container_name: app
+    build: .
+    ports:
+      - 8080:8080
+    restart: always
+    environment:
+      POSTGRES_SERVER: db
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    links:
+      - db:db_domain
+    depends_on:
+      - db

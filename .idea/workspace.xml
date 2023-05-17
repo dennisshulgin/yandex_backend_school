@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b4a9769-f34c-43c4-9fee-64ab91b4fd52" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="9261-denisshulgin2017-113" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="9261-denisshulgin2017-113" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NKw7ZyNrHDhAbymgAacFVITc19" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/denis/Desktop/9261-denisshulgin2017-113&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0d851640f8a6046edc33e07021018a41&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sql" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.CourierControllerTest">
+    <configuration name="CompleteOrdersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.yandex.yandexlavka.CompleteOrdersTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CompleteOrdersTest.ratingAndEarningTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.yandex.yandexlavka.CompleteOrdersTest.ratingAndEarningTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CourierControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.yandex.yandexlavka.CourierControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OrderControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.yandex.yandexlavka.OrderControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RateLimiterServiceTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.yandex.yandexlavka.RateLimiterServiceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="YandexLavkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="yandex-lavka.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.yandex.yandexlavka.YandexLavkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CourierControllerTest" />
+        <item itemvalue="Gradle.CompleteOrdersTest.ratingAndEarningTest" />
+        <item itemvalue="Gradle.OrderControllerTest" />
+        <item itemvalue="Gradle.CompleteOrdersTest" />
+        <item itemvalue="Gradle.RateLimiterServiceTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b4a9769-f34c-43c4-9fee-64ab91b4fd52" name="Changes" comment="" />
+      <created>1679425915461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679425915461</updated>
+      <workItem from="1679425917607" duration="1246000" />
+      <workItem from="1679722140012" duration="24000" />
+      <workItem from="1679757923626" duration="496000" />
+      <workItem from="1679758470721" duration="1447000" />
+      <workItem from="1679761175403" duration="1040000" />
+      <workItem from="1679810160438" duration="6507000" />
+      <workItem from="1679820379294" duration="455000" />
+      <workItem from="1679822266429" duration="417000" />
+      <workItem from="1679823823361" duration="3416000" />
+      <workItem from="1679827690167" duration="275000" />
+      <workItem from="1679836809291" duration="2561000" />
+      <workItem from="1679840709498" duration="1941000" />
+      <workItem from="1679846377937" duration="3257000" />
+      <workItem from="1679851644082" duration="1960000" />
+      <workItem from="1680116467442" duration="1276000" />
+      <workItem from="1680150251823" duration="2058000" />
+      <workItem from="1680234697592" duration="389000" />
+      <workItem from="1680235127070" duration="2609000" />
+      <workItem from="1680281977235" duration="2588000" />
+      <workItem from="1680325682680" duration="15000" />
+      <workItem from="1680333432131" duration="4997000" />
+      <workItem from="1680361897159" duration="5514000" />
+      <workItem from="1680414123537" duration="7782000" />
+      <workItem from="1680422752039" duration="780000" />
+      <workItem from="1680753873810" duration="3384000" />
+      <workItem from="1680807344202" duration="2686000" />
+      <workItem from="1680838628710" duration="4519000" />
+      <workItem from="1680889139658" duration="2396000" />
+      <workItem from="1680947319786" duration="10145000" />
+      <workItem from="1681023919556" duration="814000" />
+      <workItem from="1681046262476" duration="4034000" />
+      <workItem from="1681055623607" duration="6124000" />
+      <workItem from="1681316658749" duration="1060000" />
+      <workItem from="1681490625882" duration="2837000" />
+      <workItem from="1681538868952" duration="6788000" />
+      <workItem from="1681555742582" duration="8210000" />
+      <workItem from="1681570365537" duration="6299000" />
+      <workItem from="1681643554962" duration="7015000" />
+      <workItem from="1681668947875" duration="4968000" />
+      <workItem from="1682167431565" duration="4255000" />
+      <workItem from="1682227088389" duration="9958000" />
+      <workItem from="1682241560693" duration="6235000" />
+      <workItem from="1682266291659" duration="4159000" />
+      <workItem from="1682355819851" duration="3614000" />
+      <workItem from="1682484395626" duration="639000" />
+      <workItem from="1682530481289" duration="2442000" />
+      <workItem from="1682770851202" duration="2960000" />
+      <workItem from="1682868984403" duration="1460000" />
+      <workItem from="1682870488502" duration="3189000" />
+      <workItem from="1682881524863" duration="2922000" />
+      <workItem from="1682925839995" duration="8478000" />
+      <workItem from="1682947207405" duration="669000" />
+      <workItem from="1682948839268" duration="4248000" />
+      <workItem from="1683647582272" duration="4982000" />
+      <workItem from="1683706317558" duration="7680000" />
+      <workItem from="1683718820628" duration="3330000" />
+      <workItem from="1683821481361" duration="986000" />
+      <workItem from="1683824229455" duration="1624000" />
+      <workItem from="1683898040368" duration="672000" />
+      <workItem from="1683909757976" duration="856000" />
+      <workItem from="1684064465567" duration="5847000" />
+      <workItem from="1684085918112" duration="4741000" />
+      <workItem from="1684091075990" duration="189000" />
+      <workItem from="1684126156505" duration="3426000" />
+      <workItem from="1684130322734" duration="5808000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

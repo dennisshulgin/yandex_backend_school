@@ -1,0 +1,290 @@
+ˆ10:28:56.296 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000001 preparing request execution
+†10:28:56.339 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec - ex-0000000001 target auth state: UNCHALLENGED
+…10:28:56.344 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec - ex-0000000001 proxy auth state: UNCHALLENGED
+Ÿ10:28:56.347 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec - ex-0000000001 acquiring connection with route {}->http://localhost:8080
+‹10:28:56.353 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000001 acquiring endpoint (3 MINUTES)
+„10:28:56.358 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000001 endpoint lease request (3 MINUTES) [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+ñ10:28:56.368 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000001 endpoint leased [route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+Ž10:28:56.387 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000001 acquired ep-0000000001
+Œ10:28:56.388 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000001 acquired endpoint ep-0000000001
+’10:28:56.388 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec - ex-0000000001 opening connection {}->http://localhost:8080
+‡10:28:56.389 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000001 connecting endpoint (null)
+°10:28:56.394 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connecting endpoint to http://localhost:8080 (3 MINUTES)
+10:28:56.395 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost resolving remote address
+–10:28:56.404 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost resolved to [localhost/127.0.0.1]
+¯10:28:56.428 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost:8080 connecting null->localhost/127.0.0.1:8080 (3 MINUTES)
+™10:28:56.434 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection - http-outgoing-0 set socket timeout to 3 MINUTES
+µ10:28:56.435 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost:8080 connected null->localhost/127.0.0.1:8080 as http-outgoing-0
+‘10:28:56.436 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connected http-outgoing-0
+10:28:56.438 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000001 endpoint connected
+Š10:28:56.440 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec - ex-0000000001 executing POST /couriers HTTP/1.1
+„10:28:56.443 [Test worker] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies - ex-0000000001 Cookie spec selected: strict
+Š10:28:56.455 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000001 start execution ex-0000000001
+­10:28:56.457 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 executing exchange ex-0000000001 over http-outgoing-0
+q10:28:56.460 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> POST /couriers HTTP/1.1
+x10:28:56.461 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> Content-Type: application/json
+€10:28:56.462 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> Accept-Encoding: gzip, x-gzip, deflate
+m10:28:56.463 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> Content-Length: 483
+n10:28:56.464 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> Host: localhost:8080
+p10:28:56.465 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> Connection: keep-alive
+‡10:28:56.466 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/5.2.1 (Java/19)
+x10:28:56.469 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "POST /couriers HTTP/1.1[\r][\n]"
+10:28:56.470 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+‡10:28:56.470 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip, x-gzip, deflate[\r][\n]"
+t10:28:56.470 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "Content-Length: 483[\r][\n]"
+u10:28:56.471 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+w10:28:56.472 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+Ž10:28:56.472 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/5.2.1 (Java/19)[\r][\n]"
+a10:28:56.473 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "[\r][\n]"
+^10:28:56.473 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "{[\n]"
+l10:28:56.474 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "  "couriers": [[\n]"
+b10:28:56.474 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "    {[\n]"
+z10:28:56.479 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      "courier_type": "FOOT",[\n]"
+o10:28:56.480 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      "regions": [[\n]"
+j10:28:56.482 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "        1,2,3[\n]"
+e10:28:56.484 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      ],[\n]"
+u10:28:56.486 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      "working_hours": [[\n]"
+10:28:56.489 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "        "11:00-12:00", "15:00-16:00"[\n]"
+d10:28:56.491 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      ][\n]"
+c10:28:56.495 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "    },[\n]"
+b10:28:56.496 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "    {[\n]"
+z10:28:56.497 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      "courier_type": "BIKE",[\n]"
+o10:28:56.499 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      "regions": [[\n]"
+h10:28:56.500 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "        1,2[\n]"
+e10:28:56.500 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      ],[\n]"
+u10:28:56.501 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      "working_hours": [[\n]"
+10:28:56.501 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "        "15:00-17:00", "19:00-21:00"[\n]"
+d10:28:56.502 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      ][\n]"
+c10:28:56.505 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "    },[\n]"
+b10:28:56.507 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "    {[\n]"
+z10:28:56.515 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      "courier_type": "AUTO",[\n]"
+o10:28:56.525 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      "regions": [[\n]"
+h10:28:56.533 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "        4,5[\n]"
+e10:28:56.536 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      ],[\n]"
+u10:28:56.538 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      "working_hours": [[\n]"
+10:28:56.546 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "        "10:00-12:00", "11:00-16:00"[\n]"
+d10:28:56.548 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "      ][\n]"
+b10:28:56.557 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "    }[\n]"
+`10:28:56.561 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "  ][\n]"
+Z10:28:56.563 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "}"
+n10:28:58.667 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+10:28:58.679 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+{10:28:58.679 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+„10:28:58.679 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Date: Mon, 15 May 2023 07:28:58 GMT[\r][\n]"
+w10:28:58.681 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+w10:28:58.689 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+a10:28:58.691 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[\r][\n]"
+d10:28:58.693 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "13f[\r][\n]"
+ 10:28:58.695 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "{"couriers":[{"regions":[1,2,3],"courier_id":1,"courier_type":"FOOT","working_hours":["11:00-12:00","15:00-16:00"]},{"regions":[1,2],"courier_id":2,"courier_type":"BIKE","working_hours":["15:00-17:00","19:00-21:00"]},{"regions":[4,5],"courier_id":3,"courier_type":"AUTO","working_hours":["10:00-12:00","11:00-16:00"]}]}[\r][\n]"
+g10:28:58.758 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << HTTP/1.1 200 
+x10:28:58.778 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Type: application/json
+t10:28:58.781 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+}10:28:58.781 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Date: Mon, 15 May 2023 07:28:58 GMT
+p10:28:58.781 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Keep-Alive: timeout=60
+p10:28:58.781 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Connection: keep-alive
+”10:28:58.874 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec - ex-0000000001 connection can be kept alive for 60 SECONDS
+b10:28:58.941 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "0[\r][\n]"
+a10:28:58.947 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[\r][\n]"
+…10:28:58.966 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000001 releasing valid endpoint
+Š10:28:58.979 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 releasing endpoint
+³10:28:58.990 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection http-outgoing-0 can be kept alive for 60 SECONDS
+õ10:28:59.002 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection released [route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+‹10:28:59.021 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+“10:28:59.025 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection - http-outgoing-0 close connection GRACEFUL
+ƒ10:28:59.050 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
+ˆ10:28:59.659 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000002 preparing request execution
+†10:28:59.663 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec - ex-0000000002 target auth state: UNCHALLENGED
+…10:28:59.663 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec - ex-0000000002 proxy auth state: UNCHALLENGED
+Ÿ10:28:59.663 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec - ex-0000000002 acquiring connection with route {}->http://localhost:8080
+‹10:28:59.663 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000002 acquiring endpoint (3 MINUTES)
+„10:28:59.664 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000002 endpoint lease request (3 MINUTES) [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+ñ10:28:59.665 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000002 endpoint leased [route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+Ž10:28:59.670 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000002 acquired ep-0000000002
+Œ10:28:59.670 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000002 acquired endpoint ep-0000000002
+’10:28:59.670 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec - ex-0000000002 opening connection {}->http://localhost:8080
+‡10:28:59.670 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000002 connecting endpoint (null)
+°10:28:59.670 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 connecting endpoint to http://localhost:8080 (3 MINUTES)
+10:28:59.670 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost resolving remote address
+–10:28:59.671 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost resolved to [localhost/127.0.0.1]
+¯10:28:59.672 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost:8080 connecting null->localhost/127.0.0.1:8080 (3 MINUTES)
+™10:28:59.673 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection - http-outgoing-1 set socket timeout to 3 MINUTES
+µ10:28:59.674 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost:8080 connected null->localhost/127.0.0.1:8080 as http-outgoing-1
+‘10:28:59.674 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 connected http-outgoing-1
+10:28:59.674 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000002 endpoint connected
+‹10:28:59.674 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec - ex-0000000002 executing GET /couriers/1 HTTP/1.1
+„10:28:59.674 [Test worker] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies - ex-0000000002 Cookie spec selected: strict
+Š10:28:59.674 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000002 start execution ex-0000000002
+­10:28:59.674 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 executing exchange ex-0000000002 over http-outgoing-1
+r10:28:59.674 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-1 >> GET /couriers/1 HTTP/1.1
+€10:28:59.675 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-1 >> Accept-Encoding: gzip, x-gzip, deflate
+n10:28:59.675 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-1 >> Host: localhost:8080
+p10:28:59.675 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-1 >> Connection: keep-alive
+‡10:28:59.675 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/5.2.1 (Java/19)
+y10:28:59.675 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 >> "GET /couriers/1 HTTP/1.1[\r][\n]"
+‡10:28:59.675 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip, x-gzip, deflate[\r][\n]"
+u10:28:59.675 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 >> "Host: localhost:8080[\r][\n]"
+w10:28:59.675 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 >> "Connection: keep-alive[\r][\n]"
+Ž10:28:59.675 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/5.2.1 (Java/19)[\r][\n]"
+a10:28:59.675 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 >> "[\r][\n]"
+n10:28:59.972 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 << "HTTP/1.1 200 [\r][\n]"
+10:29:00.002 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 << "Content-Type: application/json[\r][\n]"
+{10:29:00.003 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 << "Transfer-Encoding: chunked[\r][\n]"
+„10:29:00.005 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 << "Date: Mon, 15 May 2023 07:28:59 GMT[\r][\n]"
+w10:29:00.006 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 << "Keep-Alive: timeout=60[\r][\n]"
+w10:29:00.006 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+a10:29:00.006 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 << "[\r][\n]"
+c10:29:00.006 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 << "66[\r][\n]"
+Ç10:29:00.006 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 << "{"regions":[1,2,3],"courier_id":1,"courier_type":"FOOT","working_hours":["11:00-12:00","15:00-16:00"]}[\r][\n]"
+b10:29:00.006 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 << "0[\r][\n]"
+a10:29:00.006 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-1 << "[\r][\n]"
+g10:29:00.013 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-1 << HTTP/1.1 200 
+x10:29:00.029 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-1 << Content-Type: application/json
+t10:29:00.039 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-1 << Transfer-Encoding: chunked
+}10:29:00.042 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-1 << Date: Mon, 15 May 2023 07:28:59 GMT
+p10:29:00.046 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-1 << Keep-Alive: timeout=60
+p10:29:00.049 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-1 << Connection: keep-alive
+”10:29:00.062 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec - ex-0000000002 connection can be kept alive for 60 SECONDS
+…10:29:00.070 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000002 releasing valid endpoint
+Š10:29:00.073 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 releasing endpoint
+³10:29:00.076 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 connection http-outgoing-1 can be kept alive for 60 SECONDS
+õ10:29:00.082 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 connection released [route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+‹10:29:00.091 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+“10:29:00.094 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection - http-outgoing-1 close connection GRACEFUL
+ƒ10:29:00.101 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
+ˆ10:29:00.401 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000003 preparing request execution
+†10:29:00.429 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec - ex-0000000003 target auth state: UNCHALLENGED
+…10:29:00.429 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec - ex-0000000003 proxy auth state: UNCHALLENGED
+Ÿ10:29:00.429 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec - ex-0000000003 acquiring connection with route {}->http://localhost:8080
+‹10:29:00.429 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000003 acquiring endpoint (3 MINUTES)
+„10:29:00.444 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000003 endpoint lease request (3 MINUTES) [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+ñ10:29:00.450 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000003 endpoint leased [route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+Ž10:29:00.456 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000003 acquired ep-0000000003
+Œ10:29:00.459 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000003 acquired endpoint ep-0000000003
+’10:29:00.462 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec - ex-0000000003 opening connection {}->http://localhost:8080
+‡10:29:00.463 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000003 connecting endpoint (null)
+°10:29:00.464 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 connecting endpoint to http://localhost:8080 (3 MINUTES)
+10:29:00.465 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost resolving remote address
+–10:29:00.470 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost resolved to [localhost/127.0.0.1]
+¯10:29:00.483 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost:8080 connecting null->localhost/127.0.0.1:8080 (3 MINUTES)
+™10:29:00.487 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection - http-outgoing-2 set socket timeout to 3 MINUTES
+µ10:29:00.490 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost:8080 connected null->localhost/127.0.0.1:8080 as http-outgoing-2
+‘10:29:00.492 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 connected http-outgoing-2
+10:29:00.493 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000003 endpoint connected
+š10:29:00.493 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec - ex-0000000003 executing GET /couriers?offset=1&limit=2 HTTP/1.1
+„10:29:00.494 [Test worker] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies - ex-0000000003 Cookie spec selected: strict
+Š10:29:00.500 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000003 start execution ex-0000000003
+­10:29:00.506 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 executing exchange ex-0000000003 over http-outgoing-2
+10:29:00.509 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-2 >> GET /couriers?offset=1&limit=2 HTTP/1.1
+€10:29:00.517 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-2 >> Accept-Encoding: gzip, x-gzip, deflate
+n10:29:00.522 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-2 >> Host: localhost:8080
+p10:29:00.530 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-2 >> Connection: keep-alive
+‡10:29:00.533 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-2 >> User-Agent: Apache-HttpClient/5.2.1 (Java/19)
+ˆ10:29:00.540 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 >> "GET /couriers?offset=1&limit=2 HTTP/1.1[\r][\n]"
+‡10:29:00.541 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 >> "Accept-Encoding: gzip, x-gzip, deflate[\r][\n]"
+u10:29:00.542 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 >> "Host: localhost:8080[\r][\n]"
+w10:29:00.544 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 >> "Connection: keep-alive[\r][\n]"
+Ž10:29:00.546 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 >> "User-Agent: Apache-HttpClient/5.2.1 (Java/19)[\r][\n]"
+a10:29:00.547 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 >> "[\r][\n]"
+n10:29:00.855 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 << "HTTP/1.1 200 [\r][\n]"
+10:29:00.918 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 << "Content-Type: application/json[\r][\n]"
+{10:29:00.920 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 << "Transfer-Encoding: chunked[\r][\n]"
+„10:29:00.928 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 << "Date: Mon, 15 May 2023 07:28:59 GMT[\r][\n]"
+w10:29:00.937 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 << "Keep-Alive: timeout=60[\r][\n]"
+w10:29:00.938 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+a10:29:00.939 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 << "[\r][\n]"
+c10:29:00.940 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 << "ed[\r][\n]"
+Î10:29:00.940 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 << "{"limit":2,"offset":1,"couriers":[{"regions":[1,2],"courier_id":2,"courier_type":"BIKE","working_hours":["15:00-17:00","19:00-21:00"]},{"regions":[4,5],"courier_id":3,"courier_type":"AUTO","working_hours":["10:00-12:00","11:00-16:00"]}]}[\r][\n]"
+b10:29:00.972 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 << "0[\r][\n]"
+a10:29:00.972 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-2 << "[\r][\n]"
+g10:29:00.976 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-2 << HTTP/1.1 200 
+x10:29:00.976 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-2 << Content-Type: application/json
+t10:29:00.976 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-2 << Transfer-Encoding: chunked
+}10:29:00.976 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-2 << Date: Mon, 15 May 2023 07:28:59 GMT
+p10:29:00.976 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-2 << Keep-Alive: timeout=60
+p10:29:00.977 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-2 << Connection: keep-alive
+”10:29:00.992 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec - ex-0000000003 connection can be kept alive for 60 SECONDS
+…10:29:00.995 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000003 releasing valid endpoint
+Š10:29:01.001 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 releasing endpoint
+³10:29:01.002 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 connection http-outgoing-2 can be kept alive for 60 SECONDS
+õ10:29:01.006 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 connection released [route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+‹10:29:01.007 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+“10:29:01.008 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection - http-outgoing-2 close connection GRACEFUL
+ƒ10:29:01.013 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
+ˆ10:29:01.207 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000004 preparing request execution
+†10:29:01.215 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec - ex-0000000004 target auth state: UNCHALLENGED
+…10:29:01.216 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec - ex-0000000004 proxy auth state: UNCHALLENGED
+Ÿ10:29:01.216 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec - ex-0000000004 acquiring connection with route {}->http://localhost:8080
+‹10:29:01.216 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000004 acquiring endpoint (3 MINUTES)
+„10:29:01.219 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000004 endpoint lease request (3 MINUTES) [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+ñ10:29:01.220 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000004 endpoint leased [route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+Ž10:29:01.221 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000004 acquired ep-0000000004
+Œ10:29:01.221 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ex-0000000004 acquired endpoint ep-0000000004
+’10:29:01.222 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec - ex-0000000004 opening connection {}->http://localhost:8080
+‡10:29:01.222 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000004 connecting endpoint (null)
+°10:29:01.222 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000004 connecting endpoint to http://localhost:8080 (3 MINUTES)
+10:29:01.222 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost resolving remote address
+–10:29:01.226 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost resolved to [localhost/127.0.0.1]
+¯10:29:01.243 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost:8080 connecting null->localhost/127.0.0.1:8080 (3 MINUTES)
+™10:29:01.259 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection - http-outgoing-3 set socket timeout to 3 MINUTES
+µ10:29:01.271 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator - localhost:8080 connected null->localhost/127.0.0.1:8080 as http-outgoing-3
+‘10:29:01.275 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000004 connected http-outgoing-3
+10:29:01.293 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000004 endpoint connected
+Š10:29:01.294 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec - ex-0000000004 executing POST /couriers HTTP/1.1
+„10:29:01.294 [Test worker] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies - ex-0000000004 Cookie spec selected: strict
+Š10:29:01.294 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000004 start execution ex-0000000004
+­10:29:01.307 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000004 executing exchange ex-0000000004 over http-outgoing-3
+q10:29:01.315 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-3 >> POST /couriers HTTP/1.1
+x10:29:01.335 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-3 >> Content-Type: application/json
+€10:29:01.339 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-3 >> Accept-Encoding: gzip, x-gzip, deflate
+m10:29:01.344 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-3 >> Content-Length: 302
+n10:29:01.347 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-3 >> Host: localhost:8080
+p10:29:01.349 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-3 >> Connection: keep-alive
+‡10:29:01.357 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-3 >> User-Agent: Apache-HttpClient/5.2.1 (Java/19)
+x10:29:01.359 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "POST /couriers HTTP/1.1[\r][\n]"
+10:29:01.364 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "Content-Type: application/json[\r][\n]"
+‡10:29:01.367 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "Accept-Encoding: gzip, x-gzip, deflate[\r][\n]"
+t10:29:01.371 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "Content-Length: 302[\r][\n]"
+u10:29:01.375 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "Host: localhost:8080[\r][\n]"
+w10:29:01.378 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "Connection: keep-alive[\r][\n]"
+Ž10:29:01.383 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "User-Agent: Apache-HttpClient/5.2.1 (Java/19)[\r][\n]"
+a10:29:01.387 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "[\r][\n]"
+^10:29:01.394 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "{[\n]"
+l10:29:01.400 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "  "couriers": [[\n]"
+b10:29:01.410 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "    {[\n]"
+|10:29:01.416 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "      "courier_type": "LALALA",[\n]"
+o10:29:01.419 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "      "regions": [[\n]"
+h10:29:01.421 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "        1,2[\n]"
+e10:29:01.427 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "      ],[\n]"
+u10:29:01.430 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "      "working_hours": [[\n]"
+r10:29:01.434 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "        "11:45-15:07"[\n]"
+d10:29:01.440 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "      ][\n]"
+c10:29:01.442 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "    },[\n]"
+b10:29:01.443 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "    {[\n]"
+z10:29:01.450 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "      "courier_type": "FOOT",[\n]"
+o10:29:01.456 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "      "regions": [[\n]"
+h10:29:01.458 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "        1,2[\n]"
+e10:29:01.462 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "      ],[\n]"
+u10:29:01.465 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "      "working_hours": [[\n]"
+r10:29:01.470 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "        "11:45-15:90"[\n]"
+d10:29:01.473 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "      ][\n]"
+b10:29:01.477 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "    }[\n]"
+`10:29:01.479 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "  ][\n]"
+^10:29:01.481 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "}[\n]"
+]10:29:01.486 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 >> "[\n]"
+n10:29:01.683 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 << "HTTP/1.1 400 [\r][\n]"
+r10:29:01.732 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 << "Content-Length: 0[\r][\n]"
+„10:29:01.733 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 << "Date: Mon, 15 May 2023 07:29:01 GMT[\r][\n]"
+r10:29:01.733 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 << "Connection: close[\r][\n]"
+a10:29:01.739 [Test worker] DEBUG org.apache.hc.client5.http.wire - http-outgoing-3 << "[\r][\n]"
+g10:29:01.748 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-3 << HTTP/1.1 400 
+k10:29:01.749 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-3 << Content-Length: 0
+}10:29:01.750 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-3 << Date: Mon, 15 May 2023 07:29:01 GMT
+k10:29:01.752 [Test worker] DEBUG org.apache.hc.client5.http.headers - http-outgoing-3 << Connection: close
+”10:29:01.780 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection - http-outgoing-3 close connection IMMEDIATE
+|10:29:01.800 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000004 endpoint closed
+€10:29:01.801 [Test worker] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000004 discarding endpoint
+Š10:29:01.812 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000004 releasing endpoint
+”10:29:01.816 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000004 connection is not kept alive
+õ10:29:01.824 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000004 connection released [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+‹10:29:01.847 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+ƒ10:29:01.851 [Test worker] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
